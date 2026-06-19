@@ -18,16 +18,16 @@
     />
     <meta name="geo.region" content="RU-KB" />
     <meta name="geo.placename" content="Прохладный" />
-    <link rel="canonical" href="https://restovratorvann07-byte.github.io/home/"/>
+    <link rel="canonical" href="https://ваш-сайт.ru" />
+    <!-- ПОДКЛЮЧЕНИЕ ВНЕШНЕГО CSS -->
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="images/favico.PNG">
-    <!-- Стили -->
+    <link rel="icon" type="image/x-icon" href="images/favico.PNG" />
   </head>
   <body>
     <header>
       <div class="container header-flex">
         <div class="logo">
-          <div class="logo-img"><link rel="style" /></div>
+          <div class="logo-img"></div>
           <div class="logo-text">Рестоватор<span>Ванн07</span></div>
         </div>
         <div class="nav">
@@ -36,12 +36,23 @@
           <a href="#reviews">Отзывы</a>
           <a href="#contacts">Контакты</a>
         </div>
-        <a
-          href="tel:+79887279043"
-          class="btn-outline btn"
-          style="padding: 8px 20px"
-          >📞 Позвонить</a
-        >
+        <div class="header-buttons">
+          <!-- Кнопка WhatsApp -->
+          <a href="https://wa.me/79887279043" class="btn btn-wa" target="_blank"
+            >WhatsApp</a
+          >
+          <!-- Кнопка Telegram -->
+          <a href="https://t.me/+79887279043" class="btn btn-tg" target="_blank"
+            >Telegram</a
+          >
+          <!-- Кнопка Instagram -->
+          <a
+            href="https://www.instagram.com/restovrator.07/"
+            class="btn btn-ig"
+            target="_blank"
+            >Instagram</a
+          >
+        </div>
       </div>
     </header>
 
@@ -55,8 +66,22 @@
             200 км от города Прохладный.
           </p>
           <div class="hero-buttons">
-            <!--<a href="#contacts" class="btn">Оставить заявку</a>-->
-            <a href="https://wa.me/79887279043" class="btn-outline btn"
+            <a
+              href="https://www.instagram.com/restovrator.07/"
+              class="btn btn-ig"
+              target="_blank"
+              >Instagram</a
+            >
+            <a
+              href="https://t.me/+79887279043"
+              class="btn btn-tg"
+              target="_blank"
+              >Telegram</a
+            >
+            <a
+              href="https://wa.me/79887279043"
+              class="btn btn-wa"
+              target="_blank"
               >WhatsApp</a
             >
           </div>
@@ -97,135 +122,74 @@
       </div>
     </section>
 
-    <section id="gallery" style="background: #edf2f7">
+    <section id="gallery">
       <div class="container">
         <h2 class="section-title">Примеры работ «До и После»</h2>
         <div class="gallery-grid">
           <!-- Карточка 1 -->
           <figure class="gallery-item">
-            <picture>
-              <source
-                srcset="
-                  images/ржавая стертая ванна.JPG
-                "
-                media="(min-width: 768px)"
-              />
-              <img
-                src="images/ржавая стертая ванна.JPG"
-                alt="Старая чугунная ванна до реставрации: ржавчина, сколы и повреждения эмали"
-                class="gallery-img"
-                loading="lazy"
-                width="600"
-                height="450"
-              />
-            </picture>
+            <img
+              src="images/ржавая стертая ванна.JPG"
+              alt="Старая чугунная ванна до реставрации: ржавчина, сколы и повреждения эмали"
+              class="gallery-img"
+              loading="lazy"
+            />
             <figcaption class="gallery-caption">Было: старая эмаль</figcaption>
           </figure>
-
           <!-- Карточка 2 -->
           <figure class="gallery-item">
-            <picture>
-              <source
-                srcset="
-                  images/ржавая стертая ванна исправлена.JPG
-                "
-                media="(min-width: 768px)"
-              />
-              <img
-                src="images/ржавая стертая ванна исправлена.JPG"
-                alt="Та же чугунная ванна после акриловой заливки: идеальный белый глянец, восстановленная поверхность"
-                class="gallery-img"
-                loading="lazy"
-                width="600"
-                height="450"
-              />
-            </picture>
+            <img
+              src="images/ржавая стертая ванна исправлена.JPG"
+              alt="Та же чугунная ванна после акриловой заливки: идеальный белый глянец"
+              class="gallery-img"
+              loading="lazy"
+            />
             <figcaption class="gallery-caption">Стало: белый глянец</figcaption>
           </figure>
-
           <!-- Карточка 3 -->
           <figure class="gallery-item">
-            <picture>
-              <source
-                srcset="
-                  images/ванна отслоилась старое покрытие.JPG
-                "
-                media="(min-width: 768px)"
-              />
-              <img
-                src="images/ванна отслоилась старое покрытие.JPG"
-                alt="Стальная ванна 1985 года до реставрации: желтизна, потускневшая эмаль и следы коррозии"
-                class="gallery-img"
-                loading="lazy"
-                width="600"
-                height="450"
-              />
-            </picture>
+            <img
+              src="images/ванна отслоилась старое покрытие.JPG"
+              alt="Стальная ванна до реставрации: желтизна, потускневшая эмаль"
+              class="gallery-img"
+              loading="lazy"
+            />
             <figcaption class="gallery-caption">
               Разрушенное старое покрытие
             </figcaption>
           </figure>
-
           <!-- Карточка 4 -->
           <figure class="gallery-item">
-            <picture>
-              <source
-                srcset="
-                  images/отслоилось старое покрытие исправлена.JPG
-                "
-                media="(min-width: 768px)"
-              />
-              <img
-                src="images/отслоилось старое покрытие исправлена.JPG"
-                alt="Сияющий результат реставрации ванны акрилом: фото довольного клиента после работы мастера"
-                class="gallery-img"
-                loading="lazy"
-                width="600"
-                height="450"
-              />
-            </picture>
+            <img
+              src="images/отслоилось старое покрытие исправлена.JPG"
+              alt="Сияющий результат реставрации ванны акрилом"
+              class="gallery-img"
+              loading="lazy"
+            />
             <figcaption class="gallery-caption">
               После заливки, ванна просто сияет
             </figcaption>
           </figure>
+          <!-- Карточка 5 -->
           <figure class="gallery-item">
-            <picture>
-              <source
-                srcset="
-                  images/нестандартная ванна.JPG
-                "
-                media="(min-width: 768px)"
-              />
-              <img
-                src="images/нестандартная ванна.JPG"
-                alt="Нестандратная сложная ванна с синим покрытием, и сложными формами"
-                class="gallery-img"
-                loading="lazy"
-                width="600"
-                height="450"
-              />
-            </picture>
+            <img
+              src="images/нестандартная ванна.JPG"
+              alt="Нестандартная сложная ванна с синим покрытием"
+              class="gallery-img"
+              loading="lazy"
+            />
             <figcaption class="gallery-caption">
               Сложные формы для нас не помеха
             </figcaption>
           </figure>
+          <!-- Карточка 6 -->
           <figure class="gallery-item">
-            <picture>
-              <source
-                srcset="
-                  images/нестандратная ванна готова.JPG
-                "
-                media="(min-width: 768px)"
-              />
-              <img
-                src="images/нестандратная ванна готова.JPG"
-                alt="Ванна с сложными формами отреставрирована жидким акрилом, фото спустя 6 часов работы"
-                class="gallery-img"
-                loading="lazy"
-                width="600"
-                height="450"
-              />
-            </picture>
+            <img
+              src="images/нестандратная ванна готова.JPG"
+              alt="Ванна с сложными формами отреставрирована жидким акрилом"
+              class="gallery-img"
+              loading="lazy"
+            />
             <figcaption class="gallery-caption">
               Сохранили сложную и дорогую ванну
             </figcaption>
@@ -239,16 +203,15 @@
         <h2 class="section-title">Отзывы благодарных клиентов</h2>
         <div class="review">
           <p>
-            «Заказали реставрацию чугунной ванны в Прохладном. Приехали быстро,
-            сделали за 4 часа — теперь как новая! Экономия большая, спасибо
-            мастеру!» — Светлана, г. Прохладный
+            «Реставрировали у нас ванну. очень качественно и аккуратно все
+            сделали, все объяснили по эксплуатации. Все как новое. Благодарю!» —
+            Анна, г. Прохладный
           </p>
         </div>
         <div class="review">
           <p>
-            «Очень боялись запаха, но ничего не чувствовали. Акрил лёг идеально,
-            гладко. Уже полгода — полёт нормальный. Рекомендую!» — Руслан,
-            Нальчик
+            «Если вы ищете мастера по реставрации ванной, остановитесь на этом
+            мастере. Не пожалеете. Ванна блестит как новая» — Амина, Нальчик
           </p>
         </div>
         <div class="review">
@@ -273,35 +236,23 @@
             📞 <a href="tel:+79889363973">+7 988-936-39-73</a> (звонок,
             WhatsApp, Telegram)
           </p>
-        <p>
-  📱 Telegram / WhatsApp:
-  <a href="https://wa.me/79881234567" target="_blank">Написать в WhatsApp</a>
-  /
-  <a href="https://t.me/+79887279043" target="_blank">Написать в Telegram</a>
-</p>
+          <p>
+            📱 Telegram / WhatsApp:
+            <a href="https://wa.me/79887279043" target="_blank"
+              >Написать в WhatsApp</a
+            >
+            /
+            <a href="https://t.me/+79887279043" target="_blank"
+              >Написать в Telegram</a
+            >
+          </p>
           <p>
             📍 Радиус работы: <strong>до 200 км от Прохладного</strong> (вся
             КБР, включая Нальчик, Майский, Терек, Урвань, Чегем, Баксан)
           </p>
           <p>⏱️ Работаем: понедельник - пятница с 9:00 до 20:00</p>
         </div>
-        <!--<div class="form">
-          <h4>Оставьте заявку — перезвоним за 5 минут</h4>
-          <form action="#" method="post">
-            <input type="text" placeholder="Ваше имя" required />
-            <input type="tel" placeholder="Телефон" required />
-            <textarea
-              rows="2"
-              placeholder="Кратко опишите состояние ванны / вопрос"
-            ></textarea>
-            <button type="submit" class="btn" style="width: 100%">
-              Отправить заявку
-            </button>
-          </form>
-          <p style="font-size: 12px; margin-top: 12px; text-align: center">
-            *гарантируем конфиденциальность
-          </p>
-        </div>-->
+        <!-- ФОРМА УДАЛЕНА -->
       </div>
     </section>
 
@@ -311,18 +262,5 @@
         уходе прослужит вам от 8 лет и более
       </p>
     </footer>
-
-    <!-- Простая обработка формы (без бэкенда, можно подключить позже) -->
-  <!--<script>
-      document
-        .querySelector(".form form")
-        .addEventListener("submit", function (e) {
-          e.preventDefault();
-          alert(
-            "✅ Спасибо! Мастер свяжется с вами в ближайшее время. (демо-режим)",
-          );
-          // здесь можно добавить отправку на ваш Telegram/почту потом
-        });
-    </script>-->
   </body>
 </html>
