@@ -303,3 +303,52 @@ footer {
     height: 200px;
   }
 }
+
+/* ===== НОВЫЕ СТИЛИ ДЛЯ КНОПОК СОЦСЕТЕЙ ===== */
+/* Кнопка WhatsApp */
+.btn-wa {
+  background: #25d366;
+  border-color: #25d366;
+  color: #fff;
+}
+.btn-wa:hover {
+  background: #1da851;
+  border-color: #1da851;
+  transform: translateY(-2px);
+}
+
+/* Кнопка Telegram */
+.btn-tg {
+  background: #0088cc;
+  border-color: #0088cc;
+  color: #fff;
+}
+.btn-tg:hover {
+  background: #006699;
+  border-color: #006699;
+  transform: translateY(-2px);
+}
+
+/* Кнопка Instagram */
+.btn-ig {
+  background: #e4405f;
+  border-color: #e4405f;
+  color: #fff;
+}
+.btn-ig:hover {
+  background: #c1354a;
+  border-color: #c1354a;
+  transform: translateY(-2px);
+}
+
+/* Кнопки в хедере (чуть меньше размер) */
+.header-buttons .btn {
+  padding: 8px 18px;
+  font-size: 14px;
+}
+
+/* Кнопки в Hero (стандартный размер) */
+.hero-buttons .btn {
+  padding: 12px 28px;
+  font-size: 16px;
+}
