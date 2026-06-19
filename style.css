@@ -291,4 +291,15 @@ footer {
     grid-template-columns: 1fr;
     gap: 20px;
   }
+
+  .hero-img {
+    height: 250px; /* ← меньшая высота на телефонах */
+    background-position: top; /* ← смещаем вверх, чтобы показать важную часть */
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-img {
+    height: 200px;
+  }
 }
